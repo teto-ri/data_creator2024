@@ -1,0 +1,42 @@
+
+1. 제출 파일 목록
+
+- 1) PPT : 
+24년 DCC PPT 대학부 부대찌개.pptx, 24년 DCC PPT 대학부 부대찌개.pdf
+
+*글꼴 깨지거나, 오류시 활용할 PDF버전 같이 첨부
+
+- 2) ipynb :
+부대찌개_Mission_1.ipynb, 부대찌개_Mission_2.ipynb, 부대찌개_Mission_3.ipynb
+
+*각 미션별로 정리하여 첨부
+
+- 3) PDF :
+부대찌개_Mission_1.pdf, 부대찌개_Mission_2.pdf, 부대찌개_Mission_3.pdf
+
+* 코랩 웹사이트 PDF인쇄는 출력결과가 다 표시되지 않고 짤리는 것들이 있어 HTML로 변환 후 단일 PDF변환을 수행한 파일을 제출함.
+* Mission_3은 출력결과가 많아서 PDF를 열면 로딩 시간이 오래걸릴 수 있음.
+
+- 4) 모델 가중치 파일:
+최종 모델 파일 : fashion_resnet18.pt
+체크포인트 파일 : checkpoint.pth
+
+- 5) 전처리 데이터:
+https://drive.google.com/drive/folders/1I9-59O2jWrfU9jmS0ijhYY1l62w-p14j?usp=sharing
+
+*모든 전처리 진행과정시 출력된 파일을 tar압축파일로 저장해둠.
+실제 학습에 활용되는 데이터는 training_image_augmented.tar (280mb), training_image_cropped.tar (22mb), validation_image_cropped.tar (5.2mb) 3가지임.  
+
+- 6) 파일 구조 사진:
+프로젝트 폴더 구조.JPG
+데이터 폴더 구조.JPG
+
+- 7) 파이썬 환경 정보:
+python 3.11.10
+requirements.txt
+
+-대여한 작업 워크스테이션 환경:
+AMD EPYC 7643 48-Core Processor
+RTX A5000 24GB
+RAM 1TB
+
